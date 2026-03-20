@@ -1,0 +1,28 @@
+Title: San Antonio Mobile Home Mover Market Tiering & Competitive Landscape — 2026 Market Analysis
+
+Profile the competitive landscape of manufactured home transportation companies operating in the San Antonio metro area. This is manufactured home transport (oversized-load trucking), not household goods moving. Do not use LocalMovers.com as a source.
+
+Provide:
+
+1. Company profiles for the top 6–10 mobile home movers serving the San Antonio metro, including:
+   * Company name and city of operation
+   * Estimated years in business
+   * USDOT number (from FMCSA SAFER System)
+   * BBB rating and accreditation status
+   * Fleet size or capacity indicators (number of toters/trucks)
+   * Service area (local only, statewide, multi-state)
+   * Approximate pricing tier: Budget ($X–$Y single-wide, $X–$Y double-wide), Mid-range, or Premium
+   * Phone number (if publicly listed)
+   * Any notable specialization (e.g., park-to-park moves, ranch/rural placements, military PCS relocations, interstate, Hill Country access)
+
+2. Market segmentation: Break the San Antonio market into tiers:
+   * Budget tier: Transport-only operators, minimal services, lowest cost — who are they, what do they charge, what are the tradeoffs?
+   * Standard tier: Full-service local movers with permits, setup, and basic utility hookup — who, pricing, and typical customer profile
+   * Premium tier: Companies handling complex moves (triple-wides, Hill Country placements, ranch land access, interstate, flood zone compliance) — who, pricing, and why they charge more
+   * National carriers with San Antonio presence (e.g., Bennett Truck Transport, other large operators) — pricing vs. local operators
+
+3. Market concentration and pricing power: How many active manufactured home transporters serve Bexar County and surrounding counties (Comal, Guadalupe, Medina, Kendall, Wilson)? Is the market fragmented or concentrated? How does this affect pricing leverage for consumers?
+
+4. Consumer verification checklist: How does a San Antonio homeowner verify that a transporter holds current TDHCA installer/transporter licensing, proper TxDOT oversize-load authority, adequate cargo/liability insurance, and an active FMCSA operating authority?
+
+Source data from FMCSA SAFER System, TDHCA license lookup, BBB business profiles, Google Business Profiles, and Yelp. Cite every source with publication date.

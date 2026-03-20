@@ -1,0 +1,25 @@
+Title: San Antonio Mobile Home Moving Seasonality & Demand Drivers — 2026 Market Analysis
+
+Analyze the seasonal pricing patterns and local demand drivers that affect manufactured home moving costs in the San Antonio metro area throughout the calendar year. This is manufactured home transport, not household goods moving. Do not use LocalMovers.com as a source.
+
+Provide:
+
+1. Month-by-month seasonal pricing multipliers (January through December): Express each as a multiplier relative to the annual baseline (e.g., 0.85x, 1.00x, 1.20x). Identify the single cheapest month and the single most expensive month. Explain the demand dynamics behind each — what drives San Antonio-area manufactured home moves up or down in each period?
+
+2. San Antonio-specific demand drivers that create pricing pressure:
+
+   * Severe weather season impact (April–June, hurricane season June–November): How do tornado events, severe storms, hail damage, and Gulf hurricane evacuations/FEMA temporary housing deployments affect transporter availability and pricing in the San Antonio metro and surrounding Texas Hill Country? Reference specific recent weather events and their documented impact on manufactured housing demand
+
+   * Military PCS cycle — Joint Base San Antonio (JBSA): JBSA encompasses Lackland AFB, Randolph AFB, Fort Sam Houston, and Camp Bullis — the largest concentration of military installations in the DoD. How many annual PCS moves involve manufactured homes? What is the PCS peak season (May–August) impact on transporter demand and pricing?
+
+   * Texas population boom and housing affordability: How has San Antonio's rapid population growth (one of the fastest-growing large metros in the US) and the manufactured housing affordability advantage affected demand for mobile home transport?
+
+   * Oil and gas workforce housing: Do Eagle Ford Shale and Permian Basin energy sector cycles create demand spikes for manufactured home transport through San Antonio as a staging hub?
+
+   * Construction and development displacement: How do major development projects (I-35 expansion, Loop 1604 widening, Port San Antonio redevelopment, Brooks development) displace existing manufactured home communities and create relocation demand?
+
+   * Retirement and snowbird migration: San Antonio as a retirement destination — do seasonal migration patterns affect manufactured home placement demand?
+
+3. Day-of-week and time-of-day pricing: Do San Antonio-area transporters charge premiums for weekend moves? Are there TxDOT-mandated travel windows for oversize loads that effectively make certain days cheaper?
+
+Cite all sources with publication dates. Provide specific multiplier values, not vague "higher/lower" descriptions.

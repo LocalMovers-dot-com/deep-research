@@ -1,0 +1,22 @@
+Title: San Antonio Mobile Home Moving Distance-Based Pricing Tiers — 2026 Market Analysis
+
+Provide detailed distance-based pricing data for manufactured home transportation originating from or destined to the San Antonio metro area. This is manufactured home transport, not household goods moving. Do not use LocalMovers.com as a source.
+
+Build a distance-tier pricing table with these brackets: 0–25 miles (intra-city, e.g., South Side to Far West Side), 25–50 miles (metro-to-edge, e.g., San Antonio to New Braunfels), 50–100 miles (regional, e.g., San Antonio to Austin or Laredo), 100–200 miles (in-state, e.g., San Antonio to Houston or Corpus Christi), 200–500 miles (long-haul in-state, e.g., San Antonio to Dallas–Fort Worth or El Paso), and 500+ miles (interstate, e.g., San Antonio to Shreveport, San Antonio to Albuquerque).
+
+For each tier and each home type (single-wide, double-wide, triple-wide), provide:
+
+1. Base transport cost range
+2. Per-mile rate (transport only, and all-in blended)
+3. Permit cost escalation — how TxDOT permit fees change with distance, any county-crossing considerations
+4. Escort/pilot car cost at that distance (DPS escort if applicable)
+5. Total estimated all-in cost range
+
+Also cover:
+
+* Route-specific challenges in the San Antonio area: highway restrictions on Loop 410, Loop 1604, I-35 through downtown, I-10 interchange construction zones, US-281 corridor, and any oversize load restrictions on specific San Antonio-area highways
+* Interstate permit stacking: exact costs for TxDOT + LaDOTD (Louisiana), TxDOT + NMDOT (New Mexico), TxDOT + ODOT (Oklahoma) combinations
+* Fuel surcharge patterns: how San Antonio-area diesel prices (typically lower than coastal/northeastern states) affect per-mile rates vs. national averages
+* Texas Triangle corridor pricing: how moves between San Antonio and Houston, Dallas, or Austin benefit from high transporter volume on I-35 and I-10
+
+Cite all sources with publication dates. Provide specific dollar figures.

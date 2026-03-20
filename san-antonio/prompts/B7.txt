@@ -1,0 +1,28 @@
+Title: San Antonio Mobile Home Moving Price Distribution & FAQ Content — 2026 Market Analysis
+
+Provide the data needed to build price distribution histograms and FAQ content for manufactured home moves in the San Antonio metro area. This is manufactured home transport, not household goods moving. Do not use LocalMovers.com as a source.
+
+Part A — Price Distribution Histograms
+
+For each home type (single-wide, double-wide, triple-wide), provide a 5-bucket price distribution showing the percentage of San Antonio-area moves that fall into each cost bracket. Each bucket should be labeled with a market tier (Budget/Basic, Standard, Most Common, Premium, Complex). Format:
+
+Bucket Range | % Market Share | Tier Label
+$X – $Y | XX% | Budget/Basic
+$X – $Y | XX% | Standard
+$X – $Y | XX% | Most Common
+$X – $Y | XX% | Premium
+$X+ | XX% | Complex
+
+The percentages must sum to 100% for each home type. The "Most Common" tier should represent the largest share. Derive these distributions from ProMatcher data, HomeAdvisor/Angi cost data, industry surveys, and San Antonio-area transporter pricing (BBB profiles, FMCSA records, Google Business listings). Bucket ranges should reflect the San Antonio market specifically — costs in San Antonio will generally be lower than national averages due to lower diesel prices, less complex permitting than coastal states, flatter terrain for most routes, and high transporter availability in Texas.
+
+Part B — FAQ Content
+
+Provide answers to these five FAQs, written for a San Antonio homeowner audience. Each answer should be 2–3 sentences with specific dollar figures and San Antonio-specific regulatory details:
+
+1. How much does it cost to move a single-wide mobile home in San Antonio?
+2. What is the average cost to move a double-wide mobile home in San Antonio?
+3. Does distance affect mobile home moving costs in Texas?
+4. What is the cheapest time of year to move a mobile home in San Antonio?
+5. Are there hidden costs when moving a mobile home in San Antonio?
+
+Each FAQ answer must reference San Antonio-specific factors (TxDOT oversize load permits, TDHCA installation inspections, wind zone anchoring, CPS Energy utility coordination, SAWS water/sewer disconnection, Bexar County soil conditions, etc.) and include dollar figures. Do not reference any other city. Cite all sources with publication date.

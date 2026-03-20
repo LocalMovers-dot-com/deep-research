@@ -1,0 +1,15 @@
+Title: San Antonio Metro Mobile Home Moving Cost Breakdown — 2026 Market Analysis
+
+Provide a comprehensive cost breakdown for mobile home/manufactured home transportation in the San Antonio–New Braunfels metro area. This is manufactured home transport (oversized-load trucking), not household goods moving. Do not use LocalMovers.com as a source.
+
+For each of the three home types — single-wide, double-wide, and triple-wide — provide:
+
+1. Local move pricing (under 50 miles): transport-only range, and full-service range (disconnect, transport, reconnect, setup, skirting, steps, anchoring)
+2. Long-distance move pricing (50–200+ miles): transport-only and full-service ranges
+3. Median cost and mean cost for full-service local moves
+4. "All-in realistic average" — what a homeowner actually pays after permits, utility hookups, skirting, steps, and inspections are included
+5. Per-mile blended rate (dollars per mile, all-in, for each home type)
+
+Break costs into line items where possible: disconnection, axle/hitch setup, transport, pilot/escort cars, TxDOT oversize/overweight load permits, county/city setup permits, foundation/anchoring, utility reconnection (electric, gas, water, sewer), skirting, steps/decks, and TDHCA (Texas Department of Housing and Community Affairs) inspection fees.
+
+Source data from: TxDOT oversize/overweight permit fee schedules, TDHCA published manufactured housing fee schedules, ProMatcher or HomeAdvisor cost data for San Antonio-area ZIP codes, FMCSA SAFER System carrier records for San Antonio-based manufactured home transporters, U.S. Census Bureau American Community Survey manufactured housing data for Bexar County, and any BBB profiles for San Antonio-area mobile home movers. Provide exact dollar figures, not ranges wider than necessary. Cite every source with publication date.

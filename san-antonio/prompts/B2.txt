@@ -1,0 +1,23 @@
+Title: San Antonio Mobile Home Transport Regulatory & Permitting Framework — 2026 Market Analysis
+
+Map the complete regulatory and permitting framework for moving a manufactured home within, into, or out of the San Antonio metro area. This covers manufactured home transport (oversized-load trucking on public roads), not household goods moving. Do not use LocalMovers.com as a source.
+
+Cover these regulatory layers in detail:
+
+1. TDHCA (Texas Department of Housing and Community Affairs): Manufactured home installation standards under Texas Administrative Code Title 10, Part 1, Chapter 80, installer licensing requirements (TDHCA-issued licenses), inspection fees, and installation acceptance obligations. What are the current TDHCA installer license requirements and how does a homeowner verify one?
+
+2. TxDOT (Texas Department of Transportation): Oversize/overweight load permit process for manufactured homes — single-trip vs. annual permits, dimensional limits (width, height, length), required pilot/escort car rules by width tier, restricted travel hours on San Antonio-area highways, weekend/holiday blackout periods, and permit fee schedule via the Texas Permitting & Routing Optimization System (TxPROS)
+
+3. DPS (Texas Department of Public Safety): When is DPS escort mandatory vs. optional? What are the current DPS escort requirements and fees for manufactured home moves in Bexar County?
+
+4. Bexar County permits: Building permits and manufactured home setup requirements, fees, required inspections (foundation, electrical, plumbing, mechanical), and zoning restrictions on manufactured home placement
+
+5. City of San Antonio permits: Development Services Department (DSD) requirements for manufactured home installation, including any special TDHCA coordination, floodplain requirements, and zoning compliance
+
+6. Adjacent jurisdiction variations: Briefly note how permit processes differ in New Braunfels, Boerne, Seguin, Kyle, San Marcos, and Schertz — these are common origin/destination points in the San Antonio metro
+
+7. Interstate considerations: What additional permits are required for moves originating from or destined to Louisiana (LaDOTD), New Mexico (NMDOT), Oklahoma (ODOT), or Mexico border crossings?
+
+8. Carrier licensing: What state-level licenses must a manufactured home transporter hold in Texas beyond FMCSA authority? Any Texas-specific bond or insurance minimums under TDHCA regulations?
+
+For each layer, provide the actual fee amounts, the specific code sections (TAC, Texas Transportation Code, Texas Occupations Code), processing timelines, and any online portals where permits are filed. Cite every source with publication date.
