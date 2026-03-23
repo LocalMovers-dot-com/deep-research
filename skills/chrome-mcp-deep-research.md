@@ -333,6 +333,144 @@ Claude.ai's frontend evolves. Key selectors:
 - `button[aria-label="Send message"]` — send button
 - Tools menu items use `[role="menuitemcheckbox"]`
 
+---
+
+## Result Collection
+
+After all Deep Research queries complete, collect results from each platform.
+
+### Collecting Claude.ai Results
+
+Claude.ai renders results in **artifact panels** (cross-origin iframes). Direct DOM access
+is blocked.
+
+**Extraction sequence (per tab):**
+1. Scroll down to find the artifact card in the conversation
+2. Click the artifact card to open the artifact panel
+3. Use `find "Copy button next to Publish"` to locate the Copy button in the panel header
+4. Click the Copy button ref
+5. **Verify clipboard** via PowerShell:
+   ```powershell
+   (Get-Clipboard | Measure-Object -Character).Characters
+   Get-Clipboard | Select-Object -First 3
+   ```
+6. Save to file:
+   ```powershell
+   Get-Clipboard | Out-File -FilePath '<city>/claude/B<N>.md' -Encoding utf8
+   ```
+
+**Key gotchas:**
+- The artifact panel sometimes doesn't open on first click — click the card again
+- Always verify clipboard content changed (compare character count to previous)
+- Clear clipboard before each extraction: `Set-Clipboard -Value 'EMPTY'`
+
+### Collecting Gemini Results
+
+Gemini renders results inline in the chat as model response elements.
+
+**Extraction sequence (per tab):**
+```javascript
+// Focus the page first (required for clipboard access)
+document.querySelector('.conversation-container').click();
+
+// Find the last large model response
+const responses = document.querySelectorAll('[data-message-author-role="model"], .model-response-text, .markdown');
+const report = Array.from(responses).filter(el => el.innerText.length > 500).pop();
+
+// Copy to clipboard
+navigator.clipboard.writeText(report.innerText);
+```
+
+Then verify and save via PowerShell (same as Claude).
+
+### Collecting ChatGPT Results
+
+ChatGPT Deep Research renders results in a **canvas** (cross-origin sandboxed iframe).
+The "Copy response" button does NOT update the system clipboard. Use the select-all approach:
+
+**Extraction sequence (per tab):**
+1. Navigate to the conversation URL
+2. Wait for page to load (3-5 seconds)
+3. Scroll down to find the canvas/report preview
+4. **Click directly on the report text** inside the canvas — this expands it to full-screen
+5. Click on a text paragraph inside the expanded canvas to place focus
+6. Press `Ctrl+A` to select all text (verify blue highlight in screenshot)
+7. Press `Ctrl+C` to copy
+8. Verify clipboard via PowerShell
+9. Save to file
+
+**Key gotchas:**
+- The first click on the canvas opens it full-screen; a second click on the text places the cursor
+- If `Ctrl+A` returns 0 chars, the cursor wasn't placed inside the editable area — click on text again
+- Close the canvas (click X at top-left) before navigating to the next conversation
+- **Navigation between ChatGPT conversations:** Use `javascript_tool` with `window.location.assign('URL')` — the `navigate` tool and address bar typing are unreliable due to ChatGPT's SPA routing
+- After `location.assign`, wait 6-7 seconds and use F5 to reload if the page appears blank
+
+### Navigation Pattern for ChatGPT Conversations
+
+```javascript
+// Reliable navigation between ChatGPT conversations
+window.location.assign('https://chatgpt.com/c/<conversation-id>')
+```
+
+Wait 6-7 seconds for load. If page is blank, press F5 to force reload.
+
+---
+
+## Result Consolidation
+
+After collecting all results, create consolidated per-platform documents.
+
+### Per-Platform Documents
+
+Create one document per platform containing all prompt results in sequence:
+
+```bash
+cd <repo>/<city> && {
+echo "# <Platform> Deep Research Results — <City> Manufactured Home Moving (2026)"
+echo ""
+echo "---"
+echo ""
+for i in 1 2 3 4 5 6 7; do
+  echo "## Prompt $i"
+  echo ""
+  cat "<platform>/B${i}.md"
+  echo ""
+  echo ""
+  echo "---"
+  echo ""
+done
+} > collated/<Platform>_All_Prompts.md
+```
+
+Repeat for each platform (ChatGPT, Claude, Gemini). This produces 3 files:
+- `collated/ChatGPT_All_Prompts.md`
+- `collated/Claude_All_Prompts.md`
+- `collated/Gemini_All_Prompts.md`
+
+### Cross-Platform Collation (Optional)
+
+For each prompt B1-B7, create a comparison document in `collated/B<N>.md` with:
+1. **Title & Overview** — what the prompt researched
+2. **Comparison Table** — key data points: Gemini | Claude | ChatGPT columns
+3. **Platform Summaries** — 4-5 bullets per platform on methodology/strengths
+4. **Areas of Agreement** — consensus findings
+5. **Areas of Divergence** — where estimates or approaches differ
+6. **Recommended Data for LocalMovers.com** — actionable business picks
+
+### Git Commit
+
+After collection and consolidation:
+```bash
+git add <city>/chatgpt/ <city>/claude/ <city>/gemini/ <city>/collated/
+git commit -m "Add <City> deep research results and consolidated documents"
+git push
+```
+
+**Do NOT commit skill file changes** unless explicitly asked.
+
+---
+
 ## User Preferences
 
 - User prefers Chrome MCP tabs in a **new window**, not the current active window
