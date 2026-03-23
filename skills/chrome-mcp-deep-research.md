@@ -471,6 +471,21 @@ git push
 
 ---
 
+## Post-Collection: Consolidation
+
+After collecting all results from all platforms, create consolidated per-platform documents in the `collated/` directory:
+
+1. For each platform (ChatGPT, Claude, Gemini), create a single document named `{Platform}_All_Prompts.md`
+2. Structure each document by concatenating all prompt results in order:
+   - Add a header `# Prompt 1` followed by the full contents of B1.md
+   - Add a header `# Prompt 2` followed by the full contents of B2.md
+   - Continue through all prompts (B1-B7)
+3. Save to `{city}/collated/{Platform}_All_Prompts.md`
+
+This gives a single comprehensive document per platform for easy review and comparison.
+
+---
+
 ## User Preferences
 
 - User prefers Chrome MCP tabs in a **new window**, not the current active window
